@@ -39,22 +39,25 @@ The section is set to collect the information necessary to monitor the knowledge
 
 The following validation rules have been set up for the CBS datasets:
 
-|                                              Name                                              |                                                       Instruction                                                      |        Operator       |                     Left side                    |               Right side              |
-|:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|:---------------------:|:------------------------------------------------:|:-------------------------------------:|
-| CH - CBS alerts responded to timely Vs CBS alerts                                              | CBS alerts responded to timely should be less than or equal to CBS alerts                                              | less_than_or_equal_to | CBS alerts responded to timely                   | CBS alerts                            |
-| CH - Communities with action was taken after an alert Vs Communities with 1+ alert (per month) | Communities with action was taken after an alert should be less than or equal to Communities with 1+ alert (per month) | less_than_or_equal_to | Communities with action was taken after an alert | Communities with 1+ alert (per month) |
-| CH - Events/alert case detected referred Vs Events/alert case detected                         | Events/alert case detected referred should be less than or equal to Events/alert case detected                         | less_than_or_equal_to | Events/alert case detected referred              | Events/alert case detected            |
+| Name                                         | Description                                                                                   | Datasets                                    | DE groups                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------|
+| CH173a - Events/alert case detected          | Events/alert case detected                                                                    | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
+| CH173b - Events/alert case detected referred | Events/alert case detected referred                                                           | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
+| CH174a - CBS alerts with timely response     | CBS alerts responded to within 24 hours or within specified time period from the CBS protocol | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
+| CH174b - CBS alerts                          | CBS alerts                                                                                    | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
+| CH175a - Communities in action after alerts  | Communities in which action was taken following an alert (per month)                          | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
+| CH175b - Communities with alert(s)           | Communities in which there was at least an alert (per month)                                  | CH - Community-based surveillance (Monthly) | CH - Community-based surveillance |
 
 ## 4. Analytics and Indicators
 
 Just as for the DEs, in the table below the column “Indicator Groups” provides information about whether the indicator is found in groups other than the CBS indicator group.
 
-|                      Name                      |               Numerator description              |        Denominator description        |          Indicator groups         |   |
-|:----------------------------------------------:|:------------------------------------------------:|:-------------------------------------:|:---------------------------------:|---|
-| CH173 - Events/alert case detected             | Events/alert case detected                       | 1                                     | CH - Community-based surveillance |   |
-| CH174b - CBS alerts                            | alerts                                           | 1                                     | CH - Community-based surveillance |   |
-| CH175b - Communities with alerts               | Communities with alerts                          | 1                                     | CH - Community-based surveillance |   |
-| CH175 - Communities in action after alerts (%) | Communities with action was taken after an alert | Communities with 1+ alert (per month) | CH - Community-based surveillance |   |
+| Name                                           | Description                                                                        | Numerator                                        | Denominator                           | Indicator Groups                  |
+|------------------------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------|-----------------------------------|
+| CH173 - Events/alert case detected             | Number of events/alert case detected                                               | Events/alert case detected                       | 1                                     | CH - Community-based surveillance |
+| CH174b - CBS alerts                            | Number of CBS alerts                                                               | Alerts                                           | 1                                     | CH - Community-based surveillance |
+| CH175b - Communities with alerts               | Number of communities with alerts                                                  | Communities with alerts                          | 1                                     | CH - Community-based surveillance |
+| CH175 - Communities in action after alerts (%) | Proportion of communities in which action was taken following an alert (per month) | Communities with action was taken after an alert | Communities with 1+ alert (per month) | CH - Community-based surveillance |
 
 ## 5. Dashboards
 
