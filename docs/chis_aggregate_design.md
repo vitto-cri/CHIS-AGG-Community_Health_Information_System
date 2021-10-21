@@ -16,7 +16,7 @@ Community Health Workers (CHW) are responsible for a wide range of tasks and act
 
 The CHIS package features **21 modules** and **37 datasets** with monthly and/or yearly periodicity of data collection.
 
-1. [Adolescent health (Monthly and Yearly)](#ch-ado-aggrgate-design)
+1. [Adolescent Health (Monthly and Yearly)](#ch-ado-aggrgate-design)
 2. [Child Health (Monthly and Yearly)](#ch-cdh-aggregate-design)
 3. [Child protection and Interpersonal violence (Monthly and Yearly)](#ch-cpiv-aggregate-design)
 4. [Civil registration and vital statistics (monthly and Yearly)](#ch-crvs-aggregate-design)
