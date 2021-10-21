@@ -1,4 +1,4 @@
-# CH - Adolescent Health { #ch-ado-aggrgate-design }
+# CH - Adolescent Health { #ch-ado-aggregate-design }
 
 ## 1. Datasets
 
