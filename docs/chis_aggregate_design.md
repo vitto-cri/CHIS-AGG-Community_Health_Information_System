@@ -60,11 +60,11 @@ The package has been developed with the following user profiles in mind:
 
 ## 3. User groups
 
-As part of the package configuration, user groups have been created to be used to manage sharing settings in the metadata for all the modules. Core metadata that use these sharing settings include mainly the dataSets, dashboard, indicators and data Elements. The 3 user groups created include;
+As part of the package configuration, user groups have been created to be used to manage sharing settings in the metadata for all the modules. Core metadata that use these sharing settings include mainly the dataSets, dashboard, indicators and data Elements. The 3 user groups created include:
 
-1. **CHIS admin** - users in this group will have sharing setting with view/edit access metadata and view only access to data values in dataSets
-2. **CHIS access** - users in this group will have sharing setting with view only access to metadata and data values in dataSets
-3. **CHIS capture** - users in this group will have sharing setting with view only access to metadata and edit access to data values in dataSets
+1. **CHIS admin** - users in this group have view/edit access to metadata and view only access to data values in data sets
+2. **CHIS access** - users in this group have view only access to metadata and data values in data sets
+3. **CHIS capture** - users in this group have view only access to metadata and view/edit access to data values in data sets
 
 Whereas it is important to maintain these userGroups while installing this package, feel free to review them inline with any existing userGroups setup or policy in the host instance.
 
